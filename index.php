@@ -79,6 +79,55 @@ if (!$pagina) $pagina = 'nieuws';
 		<p>Copyright 2014 <a href="http://www.massmedium.nl" target="_blank">MassMedium.nl</a></p>
 	</div>
 
+	<script>
+		const zoekblokjeDiv = document.querySelector(".zoekblokje");
+		const inputQ = document.querySelectorAll('.box');
+		const h3 = document.querySelector('h3')
+
+		let val;
+
+		inputQ.forEach(i => {
+
+
+			i.addEventListener('change', (e) => {
+				val = e.target.value;
+			})
+
+			i.addEventListener('focus', (e) => {
+
+				const target = e.target.parentNode.parentNode
+
+				if (val === undefined) {
+					e.target.value = ""
+				} else {
+					e.target.value = val
+				}
+
+				let v = target.firstElementChild
+				v.style.visibility = 'hidden';
+
+				const h = target.className;
+				let s = h.split(" ");
+				target.classList.add(`zoekblokjeHover`);
+				target.classList.add(`${s[1]}Hover`);
+
+			})
+
+			i.addEventListener('focusout', (e) => {
+				const target = e.target.parentNode.parentNode
+
+				e.target.value = ""
+				let v = target.firstElementChild;
+				v.style.visibility = 'visible';
+				target.classList.remove("zoekblokjeHover");
+				const h = target.className;
+				let s = h.split(" ");
+				target.classList.remove(`${s[1]}Hover`);
+			})
+
+		})
+	</script>
+
 </body>
 
 </html>
