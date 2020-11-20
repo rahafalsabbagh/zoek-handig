@@ -1,0 +1,402 @@
+/* CSS Document */
+
+body {
+  background-color: #ececec;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Droid Sans", sans-serif;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+p,
+li {
+  font-size: 14px;
+  margin: 10px;
+}
+
+ul,
+li {
+  margin: 5px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+#header {
+  background-color: #fff;
+  width: 96%;
+  padding: 2%;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #f60;
+  box-shadow: #555555 0px 0px 10px 0px;
+}
+
+#header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 0px;
+}
+
+#header p {
+  font-size: 14px;
+  margin: 5px;
+}
+
+#navigatie p {
+  margin-top: 20px;
+}
+
+#navigatie {
+  text-align: center;
+  margin: 4px 15px 15px 15px;
+}
+
+#navigatie a {
+  padding: 5px;
+  box-shadow: #555555 0px 0px 10px 0px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 40px;
+  margin: 15px;
+}
+
+.websites {
+  background-color: #f60;
+}
+
+.nieuws {
+  background-color: rgb(10, 182, 24);
+}
+.plaatjes {
+  /* background-color: rgb(182, 19, 73); */
+  background-color: rgb(210, 224, 15);
+}
+.filmpjes {
+  background-color: rgb(11, 192, 216);
+}
+.werkstukken {
+  background-color: crimson;
+}
+
+#navigatie a:hover {
+  background-color: #0054a6;
+}
+
+.copyright {
+  width: 90%;
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 10px;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: #f60;
+}
+
+.blokje {
+  border-radius: 10px;
+  float: left;
+  border: #fff solid 5px;
+}
+
+.blokje img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.infoblokje {
+  width: 240px;
+  background-color: #f60;
+  box-shadow: #555555 0px 0px 10px 0px;
+  margin: 10px;
+  border-radius: 10px;
+  float: left;
+  border: #fff solid 5px;
+}
+
+.infoblokje h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px;
+  background-color: #f60;
+}
+
+.infoblokje h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px;
+}
+
+.infoblokje p {
+  color: #fff;
+  margin: 10px;
+  background-color: #f60;
+}
+
+.zoekblokje {
+  width: 100px;
+  height: 100px;
+  /* background-color: #fff; */
+  box-shadow: #555555 0px 0px 10px 0px;
+  margin: 10px;
+  border-radius: 5px;
+  float: left;
+  padding: 50px;
+  padding-left: 10px;
+  /* background-color: rgb(33, 167, 201); */
+  transition: transform 0.2s; /* Animation */
+  background-image: url("http://www.seekgif.com/uploads/nature-kids-background-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* form test */
+form:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  cursor: zoom-in;
+}
+/*end form test */
+
+/* .zoekblokje:hover  */
+.zoekblokje:hover {
+  z-index: 10;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  cursor: zoom-in;
+  transform: scale(1.5);
+}
+
+.zoekblokje h3:hover {
+  display: none;
+}
+.website1:hover {
+  background-image: url("https://media.s-bol.com/n5QnQJXgMnyD/550x621.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.website2:hover {
+  background-image: url("https://www.androidplanet.nl/wp-content/uploads/2019/03/google-fotos-uitgelicht.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.website3:hover {
+  background-image: url("http://www.wwfhaaglanden.nl/wp-content/uploads/2019/03/Kidsproof.png");
+  background-position: center;
+  background-size: cover;
+}
+.website4:hover {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPo87Kcl96zWX0ivrMRD8Dvcvz4KXcXvAQrA&usqp=CAU");
+  background-position: center;
+  background-size: cover;
+}
+
+.film1:hover {
+  background-image: url("https://pbs.twimg.com/profile_images/886873997031419904/TztQU8zs.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film2:hover {
+  background-image: url("https://schooltv.nl/files/_processed_/a/9/csm_clip_boterhamshow_jodocuspas_fc621ffca8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film3:hover {
+  background-image: url("https://www.frissekom.nl/wp-content/uploads/2015/11/Vimeo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film4:hover {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/ac/Logo_youtube_ios_%28cropped%29.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film5:hover {
+  background-image: url("https://www.spreekbuis.nl/wp-content/uploads/2018/06/npo-zappelin-1024x427.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.plaatje1:hover {
+  background-image: url("https://cdn.nieuws.nl/media/sites/10/2019/07/12224549/BING-double-wave--392x222.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.plaatje2:hover {
+  background-image: url("https://i.pinimg.com/474x/2a/67/8f/2a678f9b3a1448ff3d9660c991c0951b.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.plaatje3:hover {
+  background-image: url("https://www.dutchcowboys.nl/uploads/posts/list/468-620.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.plaatje4:hover {
+  background-image: url("https://www.maxvandaag.nl/wp-content/uploads/2020/01/evacuatie-limburg-2-nationaal-archief.jpg-1024x732.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.werkstukken1:hover {
+  background-image: url("https://www.godelindeschool.nl/publish/pages/165/oog-voor-leren-content.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken2:hover {
+  background-image: url("https://www.maxvandaag.nl/wp-content/uploads/2020/01/evacuatie-limburg-2-nationaal-archief.jpg-1024x732.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken3:hover {
+  background-image: url("https://images.poms.omroep.nl/image/341600.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken4:hover {
+  background-image: url("https://schooltv.nl/files/_processed_/7/a/csm_cat_bo_mensennatuur_d48570d66d.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken5:hover {
+  background-image: url("https://wikikids.nl/images/thumb/d/dc/Vink.jpg/250px-Vink.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.zoekblokje h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f60;
+  margin: 10px;
+}
+
+.zoekblokje h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f60;
+  color: rgba(3, 17, 3, 0.589);
+  margin: 7px;
+  padding-left: 10px;
+}
+
+.cbsblokje {
+  width: 240px;
+  /* height: 150px; */
+  background-color: #0054a6;
+  box-shadow: #555555 0px 0px 10px 0px;
+  margin: 10px;
+}
+
+.cbsblokje h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10px;
+}
+
+.cbsblokje p {
+  color: #fff;
+  margin: 10px;
+}
+
+.cbslink {
+  font-size: 10px;
+  text-align: right;
+}
+
+.cbslink a {
+  color: #fff;
+}
+
+.button {
+  float: right;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  /* margin-right: 10px; */
+  padding-left: 10px;
+}
+
+.box {
+  border: 1px solid #555555;
+  width: 125px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -ms-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: width, height;
+  -moz-transition-property: width, height;
+  -ms-transition-property: width, height;
+  -o-transition-property: width, height;
+  transition-property: width, height;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+  -moz-transition-property: left, right, top;
+  -ms-transition-property: left, right, top;
+  -o-transition-property: left, right, top;
+  transition-property: left, right, top;
+}
+#container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+
+/* naji */
+/* .zoekblokjeHover {
+  z-index: 10;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  cursor: zoom-in;
+  transform: scale(1.5);
+} */
