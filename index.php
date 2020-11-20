@@ -80,23 +80,25 @@ if (!$pagina) $pagina = 'nieuws';
 	</div>
 
 	<script>
-		const zoekblokjeDiv = document.querySelector(".zoekblokje");
+		// add javascript for style and input value
 		const inputQ = document.querySelectorAll('.box');
-		const h3 = document.querySelector('h3')
 
-		let val;
-		let h;
+		let val; // input value
+		let classNames; // calss Names
 
+		// loop in all inputs
 		inputQ.forEach(i => {
 
-
+			//listen on change in input
 			i.addEventListener('change', (e) => {
 				val = e.target.value;
 			})
 
+			//when focus on input change class name, get the value
+			// and hidde h3 element
 			i.addEventListener('focus', (e) => {
 
-				const target = e.target.parentNode.parentNode
+				const target = e.target.parentNode.parentNode; //get the patent div
 
 				if (val === undefined) {
 					e.target.value = ""
@@ -104,26 +106,33 @@ if (!$pagina) $pagina = 'nieuws';
 					e.target.value = val
 				}
 
-				let v = target.firstElementChild
-				v.style.visibility = 'hidden';
+				let v = target.firstElementChild;
+				v.style.visibility = 'hidden'; // hidde h3
 
-				h = target.className;
-				let s = h.split(" ");
-				target.classList.add(`${s[0]}Hover`);
-				target.classList.add(`${s[1]}Hover`);
+				classNames = target.className;
+				console.log('befor', classNames);
+
+				let classNamesArr = classNames.split(" "); // make arr
+				console.log(classNamesArr);
+				target.classList.add(`${classNamesArr[0]}Hover`);
+				target.classList.add(`${classNamesArr[1]}Hover`);
+
+				classNames = target.className;
+				console.log('after', classNames);
 			})
 
-
+			//when out focus from input change class name, empty the value
+			// and show h3 element
 			i.addEventListener('focusout', (e) => {
 				const target = e.target.parentNode.parentNode
-				h = target.className;
+				classNames = target.className;
 
 				e.target.value = ""
 				let v = target.firstElementChild;
 				v.style.visibility = 'visible';
-				let s = h.split(" ");
-				target.classList.remove(`${s[2]}`);
-				target.classList.remove(`${s[3]}`);
+				let classNamesArr = classNames.split(" ");
+				target.classList.remove(`${classNamesArr[2]}`);
+				target.classList.remove(`${classNamesArr[3]}`);
 			})
 
 		})
