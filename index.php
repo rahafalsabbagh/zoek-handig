@@ -85,6 +85,7 @@ if (!$pagina) $pagina = 'nieuws';
 		const h3 = document.querySelector('h3')
 
 		let val;
+		let h;
 
 		inputQ.forEach(i => {
 
@@ -106,23 +107,23 @@ if (!$pagina) $pagina = 'nieuws';
 				let v = target.firstElementChild
 				v.style.visibility = 'hidden';
 
-				const h = target.className;
+				h = target.className;
 				let s = h.split(" ");
-				target.classList.add(`zoekblokjeHover`);
+				target.classList.add(`${s[0]}Hover`);
 				target.classList.add(`${s[1]}Hover`);
-
 			})
+
 
 			i.addEventListener('focusout', (e) => {
 				const target = e.target.parentNode.parentNode
+				h = target.className;
 
 				e.target.value = ""
 				let v = target.firstElementChild;
 				v.style.visibility = 'visible';
-				target.classList.remove("zoekblokjeHover");
-				const h = target.className;
 				let s = h.split(" ");
-				target.classList.remove(`${s[1]}Hover`);
+				target.classList.remove(`${s[2]}`);
+				target.classList.remove(`${s[3]}`);
 			})
 
 		})

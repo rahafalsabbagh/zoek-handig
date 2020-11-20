@@ -178,18 +178,8 @@ li a {
   background-position: center;
   background-size: cover;
 }
-/* form test */
-form:hover {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-around;
-  cursor: zoom-in;
-}
-/*end form test */
 
-/* .zoekblokje:hover  */
+/* .zoekblokjeHover  */
 .zoekblokje:hover {
   z-index: 10;
   font-size: 1.5rem;
@@ -198,9 +188,6 @@ form:hover {
   transform: scale(1.5);
 }
 
-.zoekblokje h3:hover {
-  display: none;
-}
 .website1:hover {
   background-image: url("https://media.s-bol.com/n5QnQJXgMnyD/550x621.jpg");
   background-position: center;
@@ -387,16 +374,109 @@ form:hover {
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-/* .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-} */
-
-/* naji */
-/* .zoekblokjeHover {
+/* hover */
+.zoekblokjeHover {
   z-index: 10;
   font-size: 1.5rem;
   justify-content: space-between;
   cursor: zoom-in;
   transform: scale(1.5);
-} */
+}
+
+.website1Hover {
+  background-image: url("https://media.s-bol.com/n5QnQJXgMnyD/550x621.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.website2Hover {
+  background-image: url("https://www.androidplanet.nl/wp-content/uploads/2019/03/google-fotos-uitgelicht.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.website3Hover {
+  background-image: url("http://www.wwfhaaglanden.nl/wp-content/uploads/2019/03/Kidsproof.png");
+  background-position: center;
+  background-size: cover;
+}
+.website4Hover {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPo87Kcl96zWX0ivrMRD8Dvcvz4KXcXvAQrA&usqp=CAU");
+  background-position: center;
+  background-size: cover;
+}
+
+.film1Hover {
+  background-image: url("https://pbs.twimg.com/profile_images/886873997031419904/TztQU8zs.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film2Hover {
+  background-image: url("https://schooltv.nl/files/_processed_/a/9/csm_clip_boterhamshow_jodocuspas_fc621ffca8.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film3Hover {
+  background-image: url("https://www.frissekom.nl/wp-content/uploads/2015/11/Vimeo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film4Hover {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/ac/Logo_youtube_ios_%28cropped%29.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.film5Hover {
+  background-image: url("https://www.spreekbuis.nl/wp-content/uploads/2018/06/npo-zappelin-1024x427.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.plaatje1Hover {
+  background-image: url("https://cdn.nieuws.nl/media/sites/10/2019/07/12224549/BING-double-wave--392x222.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.plaatje2Hover {
+  background-image: url("https://i.pinimg.com/474x/2a/67/8f/2a678f9b3a1448ff3d9660c991c0951b.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.plaatje3Hover {
+  background-image: url("https://www.dutchcowboys.nl/uploads/posts/list/468-620.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.plaatje4Hover {
+  background-image: url("https://www.maxvandaag.nl/wp-content/uploads/2020/01/evacuatie-limburg-2-nationaal-archief.jpg-1024x732.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.werkstukken1Hover {
+  background-image: url("https://www.godelindeschool.nl/publish/pages/165/oog-voor-leren-content.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken2Hover {
+  background-image: url("https://www.maxvandaag.nl/wp-content/uploads/2020/01/evacuatie-limburg-2-nationaal-archief.jpg-1024x732.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken3Hover {
+  background-image: url("https://images.poms.omroep.nl/image/341600.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken4Hover {
+  background-image: url("https://schooltv.nl/files/_processed_/7/a/csm_cat_bo_mensennatuur_d48570d66d.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.werkstukken5Hover {
+  background-image: url("https://wikikids.nl/images/thumb/d/dc/Vink.jpg/250px-Vink.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* end hover */
