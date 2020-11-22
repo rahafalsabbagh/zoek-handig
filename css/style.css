@@ -480,3 +480,11 @@ li a {
   background-size: cover;
 }
 /* end hover */
+
+/* media-query */
+@media (max-width: 1000px) and (min-width: 501px) {
+  #container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
