@@ -139,6 +139,7 @@ li a {
   border-radius: 10px;
   float: left;
   border: #fff solid 5px;
+  justify-self: center;
 }
 
 .infoblokje h2 {
@@ -177,6 +178,8 @@ li a {
   background-image: url("http://www.seekgif.com/uploads/nature-kids-background-1.jpg");
   background-position: center;
   background-size: cover;
+  align-items: center;
+  justify-self: center;
 }
 
 /* .zoekblokjeHover  */
@@ -290,7 +293,7 @@ li a {
 }
 
 .zoekblokje h3 {
-  font-size: 20px;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #f60;
   color: rgba(3, 17, 3, 0.589);
@@ -304,6 +307,7 @@ li a {
   background-color: #0054a6;
   box-shadow: #555555 0px 0px 10px 0px;
   margin: 10px;
+  justify-self: center;
 }
 
 .cbsblokje h3 {
@@ -481,10 +485,33 @@ li a {
 }
 /* end hover */
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
 /* media-query */
-@media (max-width: 1000px) and (min-width: 501px) {
+
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
   #container {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+  .cbsblokje {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .grid {
+    grid-column: 1 / span 2;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
     grid-template-columns: 1fr;
   }
 }
