@@ -4,7 +4,7 @@
 	<p>Gebruik de zoekblokjes op deze pagina om nieuwsberichten te vinden.</p>
 	<p>Wil je echt handig zoeken, gebruik de knoppen hierboven om te kiezen WAT je gaat zoeken!</p>
 </div>
-<div class="grid">
+<div class="zoekblok-grid">
 	<div class="zoekblokje nieuws1">
 		<h3>Bing Nieuws</h3>
 		<form method="post" target="_blank" action="engine.php">
@@ -34,7 +34,7 @@
 			?></ul>
 	</div>
 	<div class="zoekblokje nieuws3">
-		<h3>Google Nieuws</h3>
+		<h3>GoogleNieuws</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
 			<input name="engine" type="hidden" value="googlenews" />

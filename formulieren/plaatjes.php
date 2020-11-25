@@ -3,7 +3,7 @@
 		<h2>Plaatjes zoeken</h2>
 		<p>Er zijn veel plekken waar je naar plaatjes kunt zoeken. Natuurlijk doen we ons best om vervelende plaatjes niet te laten zien.</p>
 	</div>
-	<div class="grid">
+	<div class="zoekblok-grid">
 		<div class="zoekblokje plaatje1">
 			<h3>Bing Afbeeldingen</h3>
 			<form method="post" target="_blank" action="engine.php">

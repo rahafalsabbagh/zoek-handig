@@ -304,7 +304,14 @@ li a {
   color: #f60;
   color: rgba(3, 17, 3, 0.589);
   margin: 7px;
-  padding-left: 10px;
+  /* padding: 5px; */
+  padding: 0;
+  /* margin: 0;  */
+  text-align: center;
+}
+
+.zoekblokje span {
+  float: left;
 }
 
 .cbsblokje {
@@ -381,6 +388,12 @@ li a {
 #container {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  align-self: center;
+}
+
+.zoekblok-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* hover */
@@ -503,11 +516,21 @@ li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .zoekblok-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 500px) {
   #navigatie {
     /* display: grid; */
+    grid-template-columns: 1fr;
+  }
+
+  .zoekblok-grid {
+    display: grid;
     grid-template-columns: 1fr;
   }
 }

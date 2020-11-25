@@ -3,7 +3,7 @@
 		<h2>Websites zoeken</h2>
 		<p>Zoek via de grote zoekmachines naar websites, maar zonder dat je vervelende resultaten te zien krijgt.</p>
 	</div>
-	<div class="grid">
+	<div class="zoekblok-grid">
 		<div class="zoekblokje website1">
 			<h3>Bing</h3>
 			<form method="post" target="_blank" action="engine.php">

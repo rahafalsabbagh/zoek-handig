@@ -3,7 +3,7 @@
 		<h2>Filmpjes zoeken</h2>
 		<p>Er zijn veel plekken waar je naar filmpjes kunt zoeken. Natuurlijk doen we ons best om vervelende filmpjes niet te laten zien.</p>
 	</div>
-	<div class="grid">
+	<div class="zoekblok-grid">
 		<div class="zoekblokje film1">
 			<h3>Klokhuis</h3>
 			<form method="post" target="_blank" action="engine.php">

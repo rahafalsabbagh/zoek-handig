@@ -3,7 +3,7 @@
 		<h2>Werkstukken</h2>
 		<p>Natuurlijk laten we je niet naar complete werkstukken zoeken. Wel hebben we een serie handige zoekmachines waar je meer kunt vinden over geschiedenis, aardrijkskunde, godsdiensten, natuur en techniek.</p>
 	</div>
-	<div class="grid">
+	<div class="zoekblok-grid">
 		<div class="zoekblokje werkstukken1">
 			<h3>Digischool</h3>
 			<form method="post" target="_blank" action="engine.php">
