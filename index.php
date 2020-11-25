@@ -1,5 +1,7 @@
 <?php
 //function addslashes Returns a string with backslashes added before characters that need to be escaped like (\)
+// var_dump($_GET);
+// exit;
 $pagina = addslashes($_GET['pagina']);
 require_once('autoloader.php');
 require_once('library/SimplePie.php');
@@ -32,11 +34,11 @@ if (!$pagina) $pagina = 'nieuws';
 	</div>
 	<!-- <h3>Wat wil jij zoeken:</h3> -->
 	<ul id="navigatie">
-		<a href="index.php?pagina=websites" class="websites">Websites</a>
-		<a href="index.php?pagina=nieuws" class="nieuws">Nieuws</a>
-		<a href="index.php?pagina=plaatjes" class="plaatjes">Plaatjes</a>
-		<a href="index.php?pagina=filmpjes" class="filmpjes">Filmpjes</a>
-		<a href="index.php?pagina=werkstukken" class="werkstukken">Werkstukken</a>
+		<a href="?pagina=websites" class="websites">Websites</a>
+		<a href="?pagina=nieuws" class="nieuws">Nieuws</a>
+		<a href="?pagina=plaatjes" class="plaatjes">Plaatjes</a>
+		<a href="?pagina=filmpjes" class="filmpjes">Filmpjes</a>
+		<a href="?pagina=werkstukken" class="werkstukken">Werkstukken</a>
 	</ul>
 	<div id="container">
 		<?php

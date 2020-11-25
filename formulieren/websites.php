@@ -4,10 +4,11 @@
 		<p>Zoek via de grote zoekmachines naar websites, maar zonder dat je vervelende resultaten te zien krijgt.</p>
 	</div>
 	<div class="grid">
-		<div class="zoekblokje website1">
+		<div class="zoekblokje websi
+		te1">
 			<h3>Bing</h3>
 			<form method="post" target="_blank" action="engine.php">
-				<input name="q" type="text" class="box" />
+				<input name="q" type="text" class="box">
 				<input name="engine" type="hidden" value="bing" />
 				<input type="submit" value="Zoeken" class="button" />
 			</form><br />
