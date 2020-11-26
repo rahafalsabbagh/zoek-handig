@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="zoekblokje website3">
-			<h3>kidsproof</h3>
+			<h3>MeesterSipke</h3>
 			<form method="post" target="_blank" action="engine.php">
 				<input name="q" type="text" class="box" />
 				<input name="engine" type="hidden" value="kidsproof" />

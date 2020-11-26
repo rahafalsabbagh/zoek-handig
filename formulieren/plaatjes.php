@@ -5,7 +5,7 @@
 	</div>
 	<div class="zoekblok-grid">
 		<div class="zoekblokje plaatje1">
-			<h3>Bing Afbeeldingen</h3>
+			<h3>Bing </h3>
 			<form method="post" target="_blank" action="engine.php">
 				<input name="q" type="text" class="box" />
 				<input name="engine" type="hidden" value="bingimg" />
@@ -13,7 +13,7 @@
 			</form><br />
 		</div>
 		<div class="zoekblokje plaatje2">
-			<h3>Google Afbeeldingen</h3>
+			<h3>Google </h3>
 			<form method="post" target="_blank" action="engine.php">
 				<input name="q" type="text" class="box" />
 				<input name="engine" type="hidden" value="googleimg" />

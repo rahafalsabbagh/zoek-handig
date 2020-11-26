@@ -34,7 +34,7 @@
 			?></ul>
 	</div>
 	<div class="zoekblokje nieuws3">
-		<h3>GoogleNieuws</h3>
+		<h3>Google-Nieuws</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
 			<input name="engine" type="hidden" value="googlenews" />
@@ -94,7 +94,7 @@
 		</form><br />
 	</div>
 	<div class="zoekblokje nieuws7">
-		<h3>SchoolTV Weekjournaal</h3>
+		<h3>SchoolTV </h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
 			<input name="engine" type="hidden" value="schooltvweekjournaal" />

@@ -299,19 +299,17 @@ li a {
 }
 
 .zoekblokje h3 {
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: bold;
   color: #f60;
   color: rgba(3, 17, 3, 0.589);
   margin: 7px;
-  /* padding: 5px; */
+  /* padding: 3px; */
   padding: 0;
-  /* margin: 0;  */
+  /* margin: 0; */
   text-align: center;
-}
-
-.zoekblokje span {
-  float: left;
+  /* word-wrap: none; */
+  white-space: nowrap;
 }
 
 .cbsblokje {

@@ -58,7 +58,7 @@
 				?></ul>
 		</div>
 		<div class="zoekblokje werkstukken4">
-			<h3>SchoolTV Beeldbank</h3>
+			<h3>SchoolTV</h3>
 			<form method="post" target="_blank" action="engine.php">
 				<input name="q" type="text" class="box" />
 				<input name="engine" type="hidden" value="schooltv" />
