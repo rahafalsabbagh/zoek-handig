@@ -25,7 +25,7 @@
 			<h3>MeesterSipke</h3>
 			<form method="post" target="_blank" action="engine.php">
 				<input name="q" type="text" class="box" />
-				<input name="engine" type="hidden" value="kidsproof" />
+				<input name="engine" type="hidden" value="meestersipke" />
 				<input type="submit" value="Zoeken" class="button" />
 			</form><br />
 		</div>

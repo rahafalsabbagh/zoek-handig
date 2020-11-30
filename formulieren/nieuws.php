@@ -51,16 +51,16 @@
 		<ul><?php
 			//new object from framework Simplepie that give RSS content
 			//Then gebruik url RSS for site Jeugdjournaal to have the latest news
-			$feed = new SimplePie();
-			$feed->set_feed_url('http://feeds.nos.nl/jeugdjournaal');
-			$feed->handle_content_type();
-			$feed->init();
+			// $feed = new SimplePie();
+			// $feed->set_feed_url('http://feeds.nos.nl/jeugdjournaal');
+			// $feed->handle_content_type();
+			// $feed->init();
 			//give the latest 5 news with title and link
-			$i = 0;
-			foreach ($feed->get_items() as $item) :
-				echo '<li><a href="' . $item->get_permalink() . '" target="_blank">' . $item->get_title() . '</a></li>';
-				if (++$i == 5) break;
-			endforeach;
+			// $i = 0;
+			// foreach ($feed->get_items() as $item) :
+			// 	echo '<li><a href="' . $item->get_permalink() . '" target="_blank">' . $item->get_title() . '</a></li>';
+			// 	if (++$i == 5) break;
+			// endforeach;
 			?></ul>
 	</div>
 	<div class="zoekblokje nieuws5">

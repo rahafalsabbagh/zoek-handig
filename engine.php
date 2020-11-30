@@ -70,11 +70,12 @@ switch ($engine) {
 	case 'google':
 		$url = "http://www.google.nl/#safe=active&q=" . $qHtml;
 		break;
+		//https://www.google.com/search?safe=active&	
 	case 'bing':
 		$url = "http://www.bing.com/search?adlt=strict&q=" . $qHtml;
 		break;
-	case 'kidsproof':
-		$url = "https://www.kidsproofplus.nl/NL/Zoeken/" . $qHtml;
+	case 'meestersipke':
+		$url = "https://www.meestersipke.nl/zoek/?title=" . $qHtml . "&go=";
 		break;
 	case 'kiddle':
 		$url = "https://www.kiddle.co/s.php?q=" . $qHtml;
