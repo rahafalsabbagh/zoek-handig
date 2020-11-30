@@ -32,11 +32,11 @@ if (!$pagina) $pagina = 'nieuws';
 	</div>
 	<!-- <h3>Wat wil jij zoeken:</h3> -->
 	<ul id="navigatie">
-		<li><a href="?pagina=websites" class="websites">Websites</a></li>
-		<li><a href="?pagina=nieuws" class="nieuws">Nieuws</a></li>
-		<li><a href="?pagina=plaatjes" class="plaatjes">Plaatjes</a></li>
-		<li><a href="?pagina=filmpjes" class="filmpjes">Filmpjes</a></li>
-		<li><a href="?pagina=werkstukken" class="werkstukken">Werkstukken</a>
+		<li><a href="websites" class="websites">Websites</a></li>
+		<li><a href="nieuws" class="nieuws">Nieuws</a></li>
+		<li><a href="plaatjes" class="plaatjes">Plaatjes</a></li>
+		<li><a href="filmpjes" class="filmpjes">Filmpjes</a></li>
+		<li><a href="werkstukken" class="werkstukken">Werkstukken</a>
 		</li>
 	</ul>
 	<div id="container">

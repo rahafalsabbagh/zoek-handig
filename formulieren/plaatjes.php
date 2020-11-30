@@ -36,16 +36,16 @@
 				<input type="submit" value="Zoeken" class="button" />
 			</form><br />
 			<ul><?php
-				$feed = new SimplePie();
-				$feed->set_feed_url('http://www.gahetna.nl/rss/nieuws');
-				$feed->handle_content_type();
-				$feed->init();
+				// $feed = new SimplePie();
+				// $feed->set_feed_url('http://www.gahetna.nl/rss/nieuws');
+				// $feed->handle_content_type();
+				// $feed->init();
 
-				$i = 0;
-				foreach ($feed->get_items() as $item) :
-					echo '<li><a href="' . $item->get_permalink() . '" target="_blank">' . $item->get_title() . '</a></li>';
-					if (++$i == 5) break;
-				endforeach;
+				// $i = 0;
+				// foreach ($feed->get_items() as $item) :
+				// 	echo '<li><a href="' . $item->get_permalink() . '" target="_blank">' . $item->get_title() . '</a></li>';
+				// 	if (++$i == 5) break;
+				// endforeach;
 				?></ul>
 		</div>
 	</div>
