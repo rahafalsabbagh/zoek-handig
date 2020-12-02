@@ -3,7 +3,8 @@
 $pagina = addslashes($_GET['pagina']);
 require_once('autoloader.php');
 require_once('library/SimplePie.php');
-if (!$pagina) $pagina = 'nieuws';
+// hier made I de website begin with the page 'websites'
+if (!$pagina) $pagina = 'websites';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
