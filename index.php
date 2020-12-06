@@ -11,6 +11,10 @@ if (!$pagina) $pagina = 'websites';
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Kids.Zoekhandig.nl</title>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -112,15 +116,11 @@ if (!$pagina) $pagina = 'websites';
 				v.style.visibility = 'hidden'; // hidde h3
 
 				classNames = target.className;
-				console.log('befor', classNames);
-
 				let classNamesArr = classNames.split(" "); // make arr
-				console.log(classNamesArr);
 				target.classList.add(`${classNamesArr[0]}Hover`);
 				target.classList.add(`${classNamesArr[1]}Hover`);
-
 				classNames = target.className;
-				console.log('after', classNames);
+
 			})
 
 			//when out focus from input change class name, empty the value
@@ -129,7 +129,7 @@ if (!$pagina) $pagina = 'websites';
 				const target = e.target.parentNode.parentNode
 				classNames = target.className;
 
-				e.target.value = ""
+				// e.target.value = "" // to let the engine input have the value 
 				let v = target.firstElementChild;
 				v.style.visibility = 'visible';
 				let classNamesArr = classNames.split(" ");
