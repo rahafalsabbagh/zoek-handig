@@ -29,7 +29,7 @@
 				<input type="submit" value="Zoeken" class="button" />
 			</form><br />
 		</div>
-
+		<!-- 
 		<div class="zoekblokje website4">
 			<h3>kiddle</h3>
 			<form method="post" target="_blank" action="engine.php">
@@ -37,5 +37,5 @@
 				<input name="engine" type="hidden" value="kiddle" />
 				<input type="submit" value="Zoeken" class="button" />
 			</form><br />
-		</div>
+		</div> -->
 	</div>

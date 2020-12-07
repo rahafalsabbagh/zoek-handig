@@ -64,6 +64,15 @@ li a {
   margin: 5px;
 }
 
+/* #navigatie p {
+  margin-top: 20px;
+} */
+
+/* #navigatie {
+  text-align: center;
+  margin: 4px 15px 15px 15px;
+} */
+
 #navigatie {
   display: grid;
   /* grid-gap: 10px 5px; */
@@ -173,15 +182,17 @@ form {
 .zoekblokje {
   width: 50%;
   height: 100px;
+  /* background-color: #fff; */
   box-shadow: #555555 0px 0px 10px 0px;
   margin: 10px auto;
   border-radius: 5px;
   /* float: left; */
   padding: 50px;
   /* padding-left: 10px; */
+   background-color: rgb(33, 167, 201); 
   transition: transform 0.2s; /* Animation */
-  background-image: url("../images/robi/background-nature.jpg");
-
+  background-image: url("images/background1.jpg");
+  /*background-image: url("background1.jpg");*/
   background-position: center;
   background-size: cover;
 }
@@ -206,15 +217,15 @@ form {
   background-size: cover;
 }
 .website3:hover {
-  background-image: url("https://www.kinderopvangtotaal.nl/content/uploads/sites/3/2019/10/hoe-maak-je-kinderen-mediawijs-AdobeStock.jpg");
+  background-image: url("http://www.wwfhaaglanden.nl/wp-content/uploads/2019/03/Kidsproof.png");
   background-position: center;
   background-size: cover;
 }
-/* .website4:hover {
+.website4:hover {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPo87Kcl96zWX0ivrMRD8Dvcvz4KXcXvAQrA&usqp=CAU");
   background-position: center;
   background-size: cover;
-} */
+}
 
 .film1:hover {
   background-image: url("https://pbs.twimg.com/profile_images/886873997031419904/TztQU8zs.jpg");
@@ -542,11 +553,6 @@ form {
     /* display: grid; */
     grid-template-columns: 1fr;
     padding: 22px;
-    font-weight: bold;
-  }
-
-  #navigatie span {
-    font-size: 1.8rem;
   }
 
   #container {

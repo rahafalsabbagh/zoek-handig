@@ -10,7 +10,8 @@ if (!$pagina) $pagina = 'websites';
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kids.Zoekhandig.nl</title>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -33,11 +34,11 @@ if (!$pagina) $pagina = 'websites';
 	</div>
 	<!-- <h3>Wat wil jij zoeken:</h3> -->
 	<ul id="navigatie">
-		<li><a href="websites" class="websites">Websites</a></li>
-		<li><a href="nieuws" class="nieuws">Nieuws</a></li>
-		<li><a href="plaatjes" class="plaatjes">Plaatjes</a></li>
-		<li><a href="filmpjes" class="filmpjes">Filmpjes</a></li>
-		<li><a href="werkstukken" class="werkstukken">Werkstukken</a>
+		<li><a href="websites" class="websites"><span>Websites</span></a></li>
+		<li><a href="nieuws" class="nieuws"><span>Nieuws</span></a></li>
+		<li><a href="plaatjes" class="plaatjes"><span>Plaatjes</span></a></li>
+		<li><a href="filmpjes" class="filmpjes"><span>Filmpjes</span></a></li>
+		<li><a href="werkstukken" class="werkstukken"><span>Werkstukken</span></a>
 		</li>
 	</ul>
 	<div id="container">
@@ -129,7 +130,7 @@ if (!$pagina) $pagina = 'websites';
 				const target = e.target.parentNode.parentNode
 				classNames = target.className;
 
-				e.target.value = ""
+				// e.target.value = ""
 				let v = target.firstElementChild;
 				v.style.visibility = 'visible';
 				let classNamesArr = classNames.split(" ");

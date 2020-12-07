@@ -77,9 +77,9 @@ switch ($engine) {
 	case 'meestersipke':
 		$url = "https://www.meestersipke.nl/zoek/?title=" . $qHtml . "&go=";
 		break;
-	case 'kiddle':
-		$url = "https://www.kiddle.co/s.php?q=" . $qHtml;
-		break;
+		// case 'kiddle':
+		// 	$url = "https://www.kiddle.co/s.php?q=" . $qHtml;
+		// 	break;
 
 		// WERKSTUKKEN
 	case 'digischool':
