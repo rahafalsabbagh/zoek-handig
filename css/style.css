@@ -83,6 +83,9 @@ li a {
   line-height: 40px;
   /* margin: 15px; */
 }
+#navigatie span {
+  font-size: 1.3rem;
+}
 
 .websites {
   background-color: #f60;
@@ -160,6 +163,8 @@ li a {
   color: #fff;
   margin: 10px;
   background-color: #f60;
+  line-height: 1.5;
+  font-size: 0.95rem;
 }
 
 form {
@@ -328,6 +333,8 @@ form {
 .cbsblokje p {
   color: #fff;
   margin: 10px;
+  line-height: 1.5;
+  font-size: 0.95rem;
 }
 
 .cbslink {
