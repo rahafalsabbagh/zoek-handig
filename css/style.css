@@ -176,7 +176,7 @@ form {
 }
 
 .zoekblokje {
-  width: 50%;
+  /* width: 50%; */
   height: 100px;
   box-shadow: #555555 0px 0px 10px 0px;
   margin: 10px auto;
@@ -401,7 +401,8 @@ form {
 
 .zoekblok-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
 }
 
 /* hover */
@@ -551,6 +552,7 @@ form {
     grid-column: 1 / span 2;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    width: 85%;
   }
 }
 
