@@ -216,7 +216,8 @@ form {
   background-size: cover;
 }
 
-.nieuws:hover {
+.nieuws:hover,
+.nieuwsHover {
   background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Photos-Images-Cute-Kids-Wallpaper-HD.jpg");
   background-position: center;
   background-size: cover;
@@ -439,12 +440,6 @@ form {
 }
 .website4Hover {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPo87Kcl96zWX0ivrMRD8Dvcvz4KXcXvAQrA&usqp=CAU");
-  background-position: center;
-  background-size: cover;
-}
-
-.nieuwshover {
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/05/Photos-Images-Cute-Kids-Wallpaper-HD.jpg");
   background-position: center;
   background-size: cover;
 }
