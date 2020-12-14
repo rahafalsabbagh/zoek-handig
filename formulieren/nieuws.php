@@ -5,7 +5,7 @@
 	<p>Wil je echt handig zoeken, gebruik de knoppen hierboven om te kiezen WAT je gaat zoeken!</p>
 </div>
 <div class="zoekblok-grid">
-	<div class="zoekblokje nieuws1">
+	<div class="zoekblokje nieuws">
 		<h3>Bing Nieuws</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
@@ -13,7 +13,7 @@
 			<input type="submit" value="Zoeken" class="button" />
 		</form><br />
 	</div>
-	<div class="zoekblokje nieuws2">
+	<div class="zoekblokje nieuws">
 		<h3>7 Days</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
@@ -33,7 +33,7 @@
 			endforeach;
 			?></ul>
 	</div>
-	<div class="zoekblokje nieuws3">
+	<div class="zoekblokje nieuws">
 		<h3>Google-Nieuws</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
@@ -41,7 +41,7 @@
 			<input type="submit" value="Zoeken" class="button" />
 		</form><br />
 	</div>
-	<div class="zoekblokje nieuws4">
+	<div class="zoekblokje nieuws">
 		<h3>Jeugdjournaal</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
@@ -63,7 +63,7 @@
 			// endforeach;
 			?></ul>
 	</div>
-	<div class="zoekblokje nieuws5">
+	<div class="zoekblokje nieuws">
 		<h3>Kidsweek</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
@@ -85,7 +85,7 @@
 			endforeach;
 			?></ul>
 	</div>
-	<div class="zoekblokje nieuws6">
+	<div class="zoekblokje nieuws">
 		<h3>Nieuwsbeest.nl</h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
@@ -93,7 +93,7 @@
 			<input type="submit" value="Zoeken" class="button" />
 		</form><br />
 	</div>
-	<div class="zoekblokje nieuws7">
+	<div class="zoekblokje nieuws">
 		<h3>SchoolTV </h3>
 		<form method="post" target="_blank" action="engine.php">
 			<input name="q" type="text" class="box" />
