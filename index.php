@@ -87,7 +87,7 @@ if (!$pagina) $pagina = 'websites';
 		</div>
 	</div>
 	<div class="copyright ">
-		<p>Copyright 2014 <a href="http://www.massmedium.nl" target="_blank">MassMedium.nl</a></p>
+		<p>Copyright 2020 <a href="https://www.digishock.com/" target="_blank">digishock.com</a></p>
 	</div>
 
 	<script>
