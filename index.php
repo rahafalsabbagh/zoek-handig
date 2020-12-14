@@ -10,15 +10,15 @@ if (!$pagina) $pagina = 'websites';
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<<<<<<< HEAD <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
+	<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	=======
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	>>>>>>> af876c5347338bd804ecf30f1e332fa2dd7f015e
+
 	<title>Kids.Zoekhandig.nl</title>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.mim.css" />
