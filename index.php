@@ -29,6 +29,11 @@ if (!$pagina) $pagina = 'nieuws';
 	<div id="header">
 		<p>Zoek Slim...</p>
 		<h1>ZoekHandig.nl naar <?php echo $pagina ?></h1>
+		<!-- button to add dark mode  -->
+		<button id="contrast" class="contrast">contrast</button>
+		<!-- button to remove dark mode  -->
+		<button id="remove" class="contrast">remove</button>
+
 	</div>
 	<!-- <h3>Wat wil jij zoeken:</h3> -->
 	<ul id="navigatie">
@@ -82,6 +87,15 @@ if (!$pagina) $pagina = 'nieuws';
 	<script>
 		// add javascript for style and input value
 		const inputQ = document.querySelectorAll('.box');
+		const contrast = document.querySelector('#contrast')
+		// const img = document.querySelector('img')
+		const div = document.querySelectorAll('div')
+		const zoek = document.querySelectorAll('.zoekblokje');
+		const blokje = document.querySelectorAll('.blokje')
+		const a = document.querySelectorAll('a')
+		const black = document.querySelectorAll('.black')
+		const remove = document.querySelector('#remove')
+		let con = 0
 
 		let val; // input value
 		let classNames; // calss Names
@@ -110,15 +124,12 @@ if (!$pagina) $pagina = 'nieuws';
 				v.style.visibility = 'hidden'; // hidde h3
 
 				classNames = target.className;
-				console.log('befor', classNames);
 
 				let classNamesArr = classNames.split(" "); // make arr
-				console.log(classNamesArr);
 				target.classList.add(`${classNamesArr[0]}Hover`);
 				target.classList.add(`${classNamesArr[1]}Hover`);
 
 				classNames = target.className;
-				console.log('after', classNames);
 			})
 
 			//when out focus from input change class name, empty the value
@@ -133,6 +144,37 @@ if (!$pagina) $pagina = 'nieuws';
 				let classNamesArr = classNames.split(" ");
 				target.classList.remove(`${classNamesArr[2]}`);
 				target.classList.remove(`${classNamesArr[3]}`);
+			})
+
+			// dark mode button
+
+			// function to add black calss
+			const change = (targetClass) => {
+				targetClass.forEach(ele => {
+					ele.classList.add('black')
+				})
+			}
+
+			// function to remove black calss
+			const removeChange = (targetClass) => {
+				targetClass.forEach(ele => {
+					ele.classList.remove("black")
+				})
+			}
+
+			// add balck calss when click contrast button
+			contrast.addEventListener('click', () => {
+				change(zoek);
+				change(blokje);
+				change(a);
+			})
+
+			// remove balck calss when click contrast button
+			remove.addEventListener('click', () => {
+				removeChange(zoek)
+				removeChange(a)
+				removeChange(blokje)
+
 			})
 
 		})
