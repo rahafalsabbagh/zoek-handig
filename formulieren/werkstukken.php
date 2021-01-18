@@ -1,5 +1,5 @@
 	<div class="blokje infoblokje">
-		<img src="images/robi/werkstukkenblok1.png" width="240" height="154" alt="" />
+		<img src="images/robi/werkstukkenblok1.png" width="240" height="154" alt="hier kun je zoeken voor informatie over geschiedenis, aardrijkunde, godsdiensten, natuue en techniek" />
 		<h2>Werkstukken</h2>
 		<p>Natuurlijk laten we je niet naar complete werkstukken zoeken. Wel hebben we een serie handige zoekmachines waar je meer kunt vinden over geschiedenis, aardrijkskunde, godsdiensten, natuur en techniek.</p>
 	</div>

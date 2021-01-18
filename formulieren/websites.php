@@ -13,7 +13,7 @@
 
 
 		<div class="blokje infoblokje">
-			<img src="images/robi/websiteblok1.png" class="img-responsive" width="240" height="154" alt="" />
+			<img src="images/robi/websiteblok1.png" class="img-responsive" width="240" height="154" alt="hier kun je zoeken naar websites door de grote zoekmachines" />
 			<h2>Websites zoeken</h2>
 			<p class="lead">Zoek via de grote zoekmachines naar websites, maar zonder dat je vervelende resultaten te zien krijgt.</p>
 		</div>

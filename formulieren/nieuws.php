@@ -1,5 +1,5 @@
 <div class="blokje infoblokje">
-	<img src="images/robi/nieuwsblok1.png" width="240" height="154" alt="" />
+	<img src="images/robi/nieuwsblok1.png" width="240" height="154" alt="hier kun je zoeken voor nieuwsberichten" />
 	<h2>Nieuws zoeken</h2>
 	<p>Gebruik de zoekblokjes op deze pagina om nieuwsberichten te vinden.</p>
 	<p>Wil je echt handig zoeken, gebruik de knoppen hierboven om te kiezen WAT je gaat zoeken!</p>

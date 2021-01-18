@@ -1,5 +1,5 @@
 	<div class="blokje infoblokje">
-		<img src="images/robi/plaatjesblok1.png" width="240" height="154" alt="" />
+		<img src="images/robi/plaatjesblok1.png" width="240" height="154" alt="hier kun je zoeken naar plaatjes door de grote zoekmachines" />
 		<h2>Plaatjes zoeken</h2>
 		<p>Er zijn veel plekken waar je naar plaatjes kunt zoeken. Natuurlijk doen we ons best om vervelende plaatjes niet te laten zien.</p>
 	</div>
